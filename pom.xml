@@ -34,15 +34,13 @@
 
         <dependency>
             <groupId>com.serena</groupId>
-            <artifactId>plugins</artifactId>
+            <artifactId>plugins-commons</artifactId>
             <version>CURRENT</version>
-            <scope>runtime</scope>
-            <optional>true</optional>
         </dependency>
 
         <dependency>
             <groupId>com.serena</groupId>
-            <artifactId>plugins</artifactId>
+            <artifactId>plugins-commons</artifactId>
             <version>CURRENT</version>
             <classifier>sources</classifier>
             <type>zip</type>
@@ -130,7 +128,7 @@
                                 <artifactItems>
                                     <artifactItem>
                                         <groupId>com.serena</groupId>
-                                        <artifactId>plugins</artifactId>
+                                        <artifactId>plugins-commons</artifactId>
                                         <version>CURRENT</version>
                                         <classifier>sources</classifier>
                                         <type>zip</type>
